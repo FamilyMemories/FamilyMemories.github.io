@@ -4,6 +4,15 @@
         <script src="https://familymemories.github.io/googleTable.js"></script>
     </head>
     <body>
+
+    <script>
+        var gid = 0;
+        var id = '1lSdGFGr-X-uNSNv4_3PFKJgvRNt_YOEYffCHP-WWAkM';
+        var retrn;
+        retrn = getTable(id,gid);
+        output.innerHTML += '<h1 align="'+ gid +'">' + id + '</h1><br><p>' + retrn + '</p>';
+    </script>
+
         <form>
             <input class="place_for_search" type="text" id="text-to-find" value="" placeholder="Search" autofocus> 
             <input class="button_for_turn_back" type="button" onclick="javascript: FindOnPage('text-to-find',false); return false;" value=" " title="Отменить поиск">
