@@ -332,7 +332,7 @@ blockquote cite {
 	position: relative;
 	width: 100%;
 }
-
+/*
 .slider {
 	height: inherit;
 	overflow: hidden;
@@ -378,7 +378,7 @@ blockquote cite {
 	-o-transform: scale(1);
 	transform: scale(1);
 }
-
+*/
 .wrapper > input {
 	display: none;
 }
@@ -405,7 +405,7 @@ blockquote cite {
 	-o-transition: background ease-in-out .5s;
 	transition: background ease-in-out .5s;
 }
-
+/*
 .wrapper label:hover, 
 #slide1:checked ~ .controls label:nth-of-type(1),
 #slide2:checked ~ .controls label:nth-of-type(2),
@@ -414,7 +414,7 @@ blockquote cite {
 #slide5:checked ~ .controls label:nth-of-type(5) {
 	background: #ddd;
 }
-
+*/
 .wrapper label:after {
 	border: 2px solid #ddd;
 	content: " ";
