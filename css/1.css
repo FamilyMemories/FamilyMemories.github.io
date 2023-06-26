@@ -1,0 +1,480 @@
+html, body, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: inline-block; /*обираем отступ у всех изображений*/
+}
+
+a {
+	transition: 0.6s ease-out;/*Плавный переход*/
+}
+
+* { /*все теги на странице*/
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box; /*реальная ширина*/
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		box-sizing: border-box;
+		}
+.enjoy-css {
+	float: left; /* Выравнивание по левому краю */
+	margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+	width: 80%; 
+	display: inline-block;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	padding: 10px 20px;
+	border: 1px solid #b7b7b7;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	font: normal 16px/normal "Times New Roman", Times, serif;
+	color: rgba(0,142,198,1);
+	-o-text-overflow: clip;
+	text-overflow: clip;
+	background: rgba(252,252,252,1);
+	-webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+	box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+	text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+	-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+	-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+	-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+	transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.enjoy-css-10 {
+	width: 80%; 
+	display: inline-block;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	padding: 2px 14px;
+	border: 1px solid #b7b7b7;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	font: normal 12px/normal "Times New Roman", Times, serif;
+	color: rgba(0,142,198,1);
+	-o-text-overflow: clip;
+	text-overflow: clip;
+	background: rgba(252,252,252,1);
+	-webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+	box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+	text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+	-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+	-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+	-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+	transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.button{
+	text-decoration:none; 
+	text-align:center; 
+	padding:5px 28px; 
+	border:solid 1px #ebebeb; 
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px; 
+	border-radius: 4px; 
+	font:18px Arial, Helvetica, sans-serif; 
+	font-weight:bold; 
+	color:#262626; 
+	background-color:#ccc; 
+	background-image: -moz-linear-gradient(top, #ccc 0%, #ebebeb 100%); 
+	background-image: -webkit-linear-gradient(top, #ccc 0%, #ebebeb 100%); 
+	background-image: -o-linear-gradient(top, #ccc 0%, #ebebeb 100%); 
+	background-image: -ms-linear-gradient(top, #ccc 0% ,#ebebeb 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ebebeb", endColorstr="#ebebeb",GradientType=0 ); 
+	background-image: linear-gradient(top, #ccc 0% ,#ebebeb 100%);   
+	-webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+	-moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+	box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+}
+
+.button-10{
+	text-decoration:none; 
+	text-align:center; 
+	padding:2px 14px; 
+	border:solid 1px #ebebeb; 
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px; 
+	border-radius: 4px; 
+	font:12px Arial, Helvetica, sans-serif; 
+	font-weight:bold; 
+	color:#262626; 
+	background-color:#ccc; 
+	background-image: -moz-linear-gradient(top, #ccc 0%, #ebebeb 100%); 
+	background-image: -webkit-linear-gradient(top, #ccc 0%, #ebebeb 100%); 
+	background-image: -o-linear-gradient(top, #ccc 0%, #ebebeb 100%); 
+	background-image: -ms-linear-gradient(top, #ccc 0% ,#ebebeb 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ebebeb", endColorstr="#ebebeb",GradientType=0 ); 
+	background-image: linear-gradient(top, #ccc 0% ,#ebebeb 100%);   
+	-webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+	-moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+	box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+}
+/*-----------------------
+				HEADER 
+			-----------------------*/
+.header{
+	background:#ccc;/*цвет фона*/
+	background-size:cover;/*фон пропорцианально растягивается и заполняется весь блок, внутри которого он находится*/
+	height:10vh;/*100vh-100% от высоты окна браузера*/
+	text-align:center;/*выравнивание текста по центру*/
+	/*выравнивание текста по центру и вертекали*/	
+	display:flex;/*определяем блок header как контейнер для flex*/
+	flex-direction:column;/*создание клонок*/
+	align-items:center;/*выравнивание содержимого flex бокса по горизонтали*/
+	justify-content:center;/*выравнивание по ширине и по центру*/
+	position:relative;/*позиция относительно родителя(основного блока)*/
+	z-index: 1;
+}
+
+.header_cont {
+	margin-top: 10px;
+	float: left;
+	text-align: right;
+}
+
+.header_cont-2 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: left;
+	text-align: right;
+}
+
+.header_cont-2-menu {
+	margin-left: 50px;
+	float: left;
+}
+
+.header_cont-3-menu {
+	margin-left: 7px;
+	float: left;
+}
+
+.header_cont-2-menu a{
+	color: black; /*цвет*/
+	text-decoration: none; /*убираем подчеркивание*/
+}
+
+.header_cont-2-menu a:hover{
+	text-decoration: none; /*убираем подчеркивание*/
+	color: white; /*цвет белый*/
+	padding-top: 5px;/*внутренний отступ сверху*/
+	padding-bottom: 5px;/*внутренний отступ снизу*/
+	padding-left: 12px;/*внутренний отступ слева*/
+	padding-right: 12px;/*внутренний отступ справа*/
+	background-color: #ccc; /*цвет рамки*/
+	
+	border-width: 0px; /*ширина рамки*/
+	border-color: #fff; /*цвет рамки*/
+	border-style: solid; /*стиль рамки - прямая неприрывная линия*/
+	border-radius: 10px; /*скругление*/
+}
+
+.header_cont1 {
+	margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+	float: left; /* Выравнивание по левому краю */
+	color: black; /*цвет*/
+	font-weight: 700; /*толщина шрифта*/
+	font-size: 30px; /*Размер шрифта*/
+	margin-left: 50px;
+}
+
+.logo_img {
+	margin: 0 0 0 7px; /* Отступы вокруг картинки */
+	float: left; /* Выравнивание по левому краю */
+	border-radius: 50px; /*скругление*/
+	width: 50px;
+	height: 50px;
+	margin-left: 50px;
+}
+
+.header_cont2 {
+	margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+	float: left; /* Выравнивание по левому краю */
+	margin-left: 50px;
+}
+
+.header2{
+	background:#ebebeb;/*цвет фона*/
+	background-size:cover;/*фон пропорцианально растягивается и заполняется весь блок, внутри которого он находится*/
+	height:6vh;/*100vh-100% от высоты окна браузера*/
+	text-align:center;/*выравнивание текста по центру*/
+	/*выравнивание текста по центру и вертекали*/	
+	display:flex;/*определяем блок header как контейнер для flex*/
+	flex-direction:column;/*создание клонок*/
+	align-items:center;/*выравнивание содержимого flex бокса по горизонтали*/
+	justify-content:center;/*выравнивание по ширине и по центру*/
+	position:relative;/*позиция относительно родителя(основного блока)*/
+	z-index: 1;
+}
+/*-----------------------
+				CONTENT 
+			-----------------------*/
+.content {
+	background:#fff;/*цвет фона*/
+	color:#000;/*цвет текста*/
+	background-size:cover;/*фон пропорцианально растягивается и заполняется весь блок, внутри которого он находится*/
+	height:50vh;/*100vh-100% от высоты окна браузера*/
+	text-align:center;/*выравнивание текста по центру*/
+	/*выравнивание текста по центру и вертекали*/	
+	display:flex;/*определяем блок header как контейнер для flex*/
+	flex-direction:column;/*создание клонок*/
+	align-items:center;/*выравнивание содержимого flex бокса по горизонтали*/
+	justify-content:center;/*выравнивание по ширине и по центру*/
+	position:relative;/*позиция относительно родителя(основного блока)*/
+	z-index: 0;
+}
+
+.new {
+	border-width: 1;
+    border-color: rgb(190,190,190);
+    border-style: solid;
+}
+
+.content_cont {
+	margin-top: 10px;
+	float: left;
+	text-align: right;
+	width: 50%;
+}
+
+.head-text {
+	margin-top: 50px;/*отступ cверху*/
+	text-align:center;/*выравнивание текста по центру*/
+	font-size:25px;
+	color:#000;/*цвет текста*/
+	font-weight: bold;
+}
+
+.head-text-2 {
+	text-align:center;/*выравнивание текста по центру*/
+	font-size:25px;
+	color:#000;/*цвет текста*/
+	font-weight: bold;
+}
+
+.text {
+	text-align:center;/*выравнивание текста по центру*/
+	font-size:16px;
+	color:#000;/*цвет текста*/
+	margin-top: 50px;/*отступ cверху*/
+}
+
+blockquote {
+	margin: 0;
+	background: #F0F0F1;
+	color: #333334;
+	padding: 20px 30px;
+	position: relative;
+	border-left: 35px solid #DFDEDE;
+	font-family: 'Lato', sans-serif;
+}
+blockquote:before {
+	content: "\201C";
+	font-family: serif;
+	position: absolute;
+	left: -29px;
+	top: 5px;
+	color: #BCBCBC;
+	font-size: 50px;
+	text-shadow: 1px 2px 0 white;
+}
+blockquote p {
+	margin: 0 0 16px;
+	font-size: 20px;
+	letter-spacing: .05em;
+	line-height: 1.4;
+}
+blockquote cite {
+	font-style: normal;
+	font-weight: 300;
+}
+
+.alert {
+	margin-top: 50px;
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.alert-2 {
+	margin-top: 50px;
+    padding: 20px;
+    background-color: #94f54a;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+.wrapper {
+	height: 500px;
+	margin: 100px auto 0;
+	position: relative;
+	width: 100%;
+}
+
+.slider {
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+	width: inherit;
+	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	-o-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+
+.slides {
+	height: inherit;
+	opacity: 0;
+	position: absolute;
+	width: inherit;
+	z-index: 0;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+}
+
+.slide1 { background-image: url('https://wsgamestudio.fun/FutureLab/public_html/img/1.png'); }
+.slide2 { background-image: url('https://wsgamestudio.fun/FutureLab/public_html/img/2.png'); }
+.slide3 { background-image: url('https://wsgamestudio.fun/FutureLab/public_html/img/3.png'); }
+.slide4 { background-image: url('https://wsgamestudio.fun/FutureLab/public_html/img/4.png'); }
+.slide5 { background-image: url('https://wsgamestudio.fun/FutureLab/public_html/img/5.png'); }
+
+#slide1:checked ~ .slider > .slide1,
+#slide2:checked ~ .slider > .slide2,
+#slide3:checked ~ .slider > .slide3,
+#slide4:checked ~ .slider > .slide4,
+#slide5:checked ~ .slider > .slide5 {
+	opacity: 1;
+	z-index: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+.wrapper > input {
+	display: none;
+}
+
+.wrapper .controls {
+	left: 50%;
+	margin-left: -98px;
+	position: absolute;
+}
+
+.wrapper label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition: background ease-in-out .5s;
+	-moz-transition: background ease-in-out .5s;
+	-o-transition: background ease-in-out .5s;
+	transition: background ease-in-out .5s;
+}
+
+.wrapper label:hover, 
+#slide1:checked ~ .controls label:nth-of-type(1),
+#slide2:checked ~ .controls label:nth-of-type(2),
+#slide3:checked ~ .controls label:nth-of-type(3),
+#slide4:checked ~ .controls label:nth-of-type(4),
+#slide5:checked ~ .controls label:nth-of-type(5) {
+	background: #ddd;
+}
+
+.wrapper label:after {
+	border: 2px solid #ddd;
+	content: " ";
+	display: block;
+	height: 12px;
+	left: -4px;
+	position: absolute;
+	top: -4px;
+	width: 12px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+/*-----------------------
+				FOOTER 
+			-----------------------*/
+.footer {	
+	margin-top: 210px;/*отступ cверху*/
+	background:#ccc;/*цвет фона*/
+	background-size:cover;/*фон пропорцианально растягивается и заполняется весь блок, внутри которого он находится*/
+	height:20vh;/*100vh-100% от высоты окна браузера*/
+	text-align:center;/*выравнивание текста по центру*/
+	/*выравнивание текста по центру и вертекали*/	
+	display:flex;/*определяем блок header как контейнер для flex*/
+	flex-direction:column;/*создание клонок*/
+	align-items:center;/*выравнивание содержимого flex бокса по горизонтали*/
+	justify-content:center;/*выравнивание по ширине и по центру*/
+	position:relative;/*позиция относительно родителя(основного блока)*/
+	z-index: 0;
+}
+.footer_cont {
+	text-align:center;/*выравнивание текста по центру*/
+}
+
+.footer_cont1 {
+	font-size: 30px;
+	float: left; /* Выравнивание по левому краю */
+	text-align:center;/*выравнивание текста по центру*/
+	color:#000;/*цвет текста*/
+	font-weight: bold;
+}
+.footer_cont2 {
+	font-size: 14px;
+	float: left; /* Выравнивание по левому краю */
+	margin-left: 150px;
+}
+
+.footer_cont2-menu {
+	margin-top: 2px;
+}
+
+.footer_cont3 {
+	font-size: 25px;
+	float: left; /* Выравнивание по левому краю */
+	margin-left: 150px;
+}
+.footer-social {
+	color: black;
+	text-decoration: none;
+	float: left; /* Выравнивание по левому краю */
+	margin-left: 20px;
+}
